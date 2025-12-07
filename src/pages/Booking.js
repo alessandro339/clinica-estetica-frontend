@@ -3,7 +3,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 
-const backend = process.env.REACT_APP_BACKEND || 'http://localhost:4000';
+const backend = process.env.REACT_APP_BACKEND || 'https://clinica-estetica-daiane-backend.onrender.com';
 
 export default function Booking(){
   const [services,setServices] = useState([]);
