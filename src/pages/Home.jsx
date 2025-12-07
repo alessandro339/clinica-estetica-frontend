@@ -12,6 +12,8 @@ export default function Home() {
           <Link to="/">Home</Link>
           <Link to="/login">Login</Link>
           <Link to="/register">Cadastrar</Link>
+          <Link to="/booking">Realizar agendamento</Link>
+          
         </nav>
       </header>
 
@@ -25,12 +27,10 @@ export default function Home() {
         <h2>Nossos Serviços</h2>
         <div className="service-list">
           <div className="service-card">
-            //<img src="/assets/servico1.jpg" alt="Serviço 1" />
             <h3>Higienização de pele</h3>
             <p>Limpeza profunda facial — 60 min</p>
           </div>
           <div className="service-card">
-            //<img src="/assets/servico2.jpg" alt="Serviço 2" />
             <h3>Extensão de cílios</h3>
             <p>Duração 90 min</p>
           </div>
