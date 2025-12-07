@@ -6,7 +6,7 @@ export default function Register(){
   const [email,setEmail] = useState('');
   const [password,setPassword] = useState('');
   const nav = useNavigate();
-  const backend = process.env.REACT_APP_BACKEND || 'http://localhost:4000';
+  const backend = process.env.REACT_APP_BACKEND || 'https://clinica-estetica-daiane-backend.onrender.com';
 
   const submit = async (e)=>{
     e.preventDefault();
