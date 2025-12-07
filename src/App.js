@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Booking from './pages/Booking';
+import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register/>} />
           <Route path="/booking" element={<Booking/>} />
+          <Route path="/admin-login" element={<AdminLogin/>} />
           <Route path="/admin" element={<AdminDashboard/>} />
         </Routes>
       </div>
