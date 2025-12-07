@@ -14,12 +14,6 @@ body {
   text-decoration: none;
   color: #333;
 }
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: url('/assets/hero.jpg') center/cover no-repeat;
-  color: white;
-}
 .btn-primary {
   display: inline-block;
   background: #e91e63;
