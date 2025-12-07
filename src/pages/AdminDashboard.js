@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-const backend = process.env.REACT_APP_BACKEND || 'http://localhost:4000';
+const backend = process.env.REACT_APP_BACKEND || 'https://clinica-estetica-daiane-backend.onrender.com';
 
 export default function AdminDashboard(){
   const token = localStorage.getItem('token');
