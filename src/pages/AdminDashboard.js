@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './AdminDashboard.css'; // CSS separado para o painel
 
-const backend = process.env.REACT_APP_BACKEND || 'https://clinica-estetica-daiane-backend.onrender.com';
+const backend = process.env.REACT_APP_BACKEND || 'https://clinica-estetica-daiane-backend-yztv.onrender.com';
 
 export default function AdminDashboard() {
   const nav = useNavigate();
